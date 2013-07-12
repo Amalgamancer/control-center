@@ -12,40 +12,76 @@
 	<script src="js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
-<div class="row">
-	<header>
-		<h1>Amalgamancer</h1>
-		<h2>Control Center</h2>
-	</header>
-</div>
-<div class="row">
-	<nav>
-		<ul>
-			<li>Draw</li>
-			<li>History</li>
-		</ul>
-	</nav>
-</div>
-<div class="row">
-	<nav>
-		<ul>
-			<li>MONSTER 1</li>
-			<li>MONSTER 2</li>
-		</ul>
-	</nav>
-</div>
-<div class="row">
-	<section>
-		<button>DRAW</button>
-	</section>
-</div>
-<div class="row">
-	<section>
-		<button>KEEP</button>
-	</section>
-</div>
-
-
+	<div id="container" class="row">
+		<div id="content">
+			<div class="row">
+				<div class="large-12 columns">
+					<header>
+						<h1>Amalgamancer</h1>
+						<h2>Control Center</h2>
+					</header>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="large-12 columns">
+					<nav>
+						<ul class="inline-list">
+							<li>Draw</li>
+							<li>History</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<section>
+						<div class="row">
+							<ul class="inline-list">
+								<div class="large-6 columns">
+									<div class="panel">
+										<li>
+											<div class="monster">
+												MONSTER 1
+											</div>
+										</li>
+									</div>
+								</div>
+								<div class="large-6 columns">
+									<div class="panel">
+										<li>
+											<div class="monster">
+												MONSTER 2
+											</div>
+										</li>
+									</div>
+								</div>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<section>
+						<button class="large button expand radius">DRAW</button>
+					</section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<section>
+						<button class="large button expand success radius">KEEP</button>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<em>Powered by Spectrum Branch</em>
+		</div>
+	</div>
+	
+	
 <script>
   document.write('<script src=js/vendor/'
 	+ ('__proto__' in {} ? 'zepto' : 'jquery')

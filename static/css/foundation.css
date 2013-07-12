@@ -132,7 +132,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+  max-width: 50em;
   *zoom: 1;
 }
 /* line 119, ../scss/foundation/components/_global.scss */
@@ -3927,7 +3927,7 @@ form.custom .custom.disabled {
 }
 /* line 104, ../scss/foundation/components/_top-bar.scss */
 .top-bar .button {
-  padding-top: .3em;
+  padding-top: .5em;
   padding-bottom: .5em;
   margin-bottom: 0;
 }
@@ -4223,7 +4223,7 @@ form.custom .custom.disabled {
 
   /* line 376, ../scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 62.5em;
+    max-width: 50em;
     margin: 0 auto;
   }
 

@@ -1,0 +1,22 @@
+div#container {
+	position:relative;
+	margin:0 auto;
+	background:#d0d0d0;
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+}
+
+ul.inline-list {
+	margin-left: 0;
+}
+
+div#footer {
+	position:absolute;
+	width:100%;
+	bottom:0; /* stick to bottom */
+	background:#ddd;
+}
+div#content {
+	padding:1em 1em 5em; /* bottom padding for footer */
+}
