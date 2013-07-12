@@ -21,6 +21,8 @@
   "gitHead": "ebd6fe7f30de9d4dfd67ee568958f8bd3b2008c5",
   "dependencies": {
     "hapi": "~1.8.2",
-    "handlebars": "~1.0.12"
+    "handlebars": "~1.0.12",
+    "forever-monitor": "~1.2.2",
+    "forever": "~0.10.8"
   }
 }
