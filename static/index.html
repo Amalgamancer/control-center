@@ -38,19 +38,19 @@
 					<section>
 						<div class="row">
 							<ul class="inline-list">
-								<div class="large-6 columns">
+								<div class="small-6 columns">
 									<div class="panel">
 										<li>
-											<div class="monster">
+											<div id="firstMonster" class="monster">
 												MONSTER 1
 											</div>
 										</li>
 									</div>
 								</div>
-								<div class="large-6 columns">
+								<div class="small-6 columns">
 									<div class="panel">
 										<li>
-											<div class="monster">
+											<div id="secondMonster" class="monster">
 												MONSTER 2
 											</div>
 										</li>
@@ -64,14 +64,14 @@
 			<div class="row">
 				<div class="large-12 columns">
 					<section>
-						<button class="large button expand radius">DRAW</button>
+						<button id="drawbtn" class="large button expand radius">DRAW</button>
 					</section>
 				</div>
 			</div>
 			<div class="row">
 				<div class="large-12 columns">
 					<section>
-						<button class="large button expand success radius">KEEP</button>
+						<button id="keepbtn" class="large button expand success radius">KEEP</button>
 					</section>
 				</div>
 			</div>
@@ -98,6 +98,8 @@
     $(document).foundation();    
   })
 </script>
+
+<script src="js/interface.js"></script>
 
 </body>
 </html>
